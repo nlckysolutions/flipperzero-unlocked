@@ -1,0 +1,13 @@
+App(
+    appid="nlcky_settings",
+    name="Nlcky Settings",
+    apptype=FlipperAppType.MENUEXTERNAL,
+    entry_point="nlckysettings_app",
+    stack_size=2 * 1024,
+    icon="A_BadUsb_14",
+    order=70,
+    resources="resources",
+    fap_libs=["assets"],
+    fap_icon="icon.png",
+    fap_category="Tools",
+)
